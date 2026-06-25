@@ -1,0 +1,9 @@
+:root{
+    --verde-oliva: #687351ff;
+--verde-claro: #9ba17fff;
+--quase-branco: #e8e4dbff;
+--tipo-bege: #c9c1aeff;
+}
+body{
+    background: var(--quase-branco);
+}
