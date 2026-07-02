@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rye&display=swap');
+
 :root{
     --verde-oliva: #687351ff;
 --verde-claro: #9ba17fff;
 --quase-branco: #e8e4dbff;
 --tipo-bege: #c9c1aeff;
+--titulo: "Rye", serif;
+--texto: "Cormorant Garamond", serif;
 }
 body{
     background: var(--quase-branco);
+    font-family: var(--texto);
+}
+h1{
+    font-family: var(--titulo);
 }
