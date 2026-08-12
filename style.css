@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rye&display=swap');
 
-:root{
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+:root {
     --verde-oliva: #687351ff;
---verde-claro: #9ba17fff;
---quase-branco: #e8e4dbff;
---tipo-bege: #c9c1aeff;
---titulo: "Rye", serif;
---texto: "Cormorant Garamond", serif;
+    --verde-claro: #9ba17fff;
+    --quase-branco: #e8e4dbff;
+    --tipo-bege: #c9c1aeff;
+    --titulo: "Rye", serif;
+    --texto: "Cormorant Garamond", serif;
 }
-body{
+
+body {
     background: var(--quase-branco);
     font-family: var(--texto);
 }
-header{
+
+header {
     background-color: var(--tipo-bege);
-    display flex;
+    display: flex;
     justify-content: space-around;
     color: var(--verde-oliva);
 }
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--tipo-bege);
+    text-transform: uppercase;
+    font-size: 14px;
+    }
+
+    .img-sla{
+        width: 100%;
+        height: 10%;
+    }
