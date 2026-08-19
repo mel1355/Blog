@@ -25,7 +25,11 @@ header {
     justify-content: space-around;
     color: var(--verde-oliva);
 }
+.menu a:hover{
+    color: var(--verde-claro);
+    transition: 1s;
 
+}
 .menu{
     display: flex;
     list-style: none;
