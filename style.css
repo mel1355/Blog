@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rye&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    }
+}
 
 :root {
     --verde-oliva: #687351ff;
@@ -25,12 +25,23 @@ header {
     justify-content: space-around;
     color: var(--verde-oliva);
 }
-.menu a:hover{
+
+.menu a:hover {
     color: var(--verde-claro);
     transition: 1s;
 
 }
-.menu{
+
+.menu a {
+
+    text-decoration: none;
+    color: var(--verde-oliva);
+    font-weight: bold;
+
+
+}
+
+.menu {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -38,24 +49,26 @@ header {
     color: var(--tipo-bege);
     text-transform: uppercase;
     font-size: 14px;
-    }
+}
 
-    .img-sla{
-        width: 100%;
-        height: 10%;
-    }
-    .conteudo{
-        margin: 30px;
-        padding: 30px;
-        text-align: center;
-    }
+.img-sla {
+    width: 100%;
+    height: 10%;
+}
 
-    .conteudo-titulo{
-        font-family: var(--titulo);
-        font-size: 24px;
-        color: var(--verde-oliva);
-    }
-    .conteudo-texto{
-        font-family: var(--texto);
-        font-size: 14px;
-    }
+.conteudo {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.conteudo-titulo {
+    font-family: var(--titulo);
+    font-size: 24px;
+    color: var(--verde-oliva);
+}
+
+.conteudo-texto {
+    font-family: var(--texto);
+    font-size: 14px;
+}
