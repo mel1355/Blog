@@ -20,10 +20,17 @@ body {
 }
 
 header {
-    background-color: var(--tipo-bege);
+    background-color: var(--verde-oliva);
     display: flex;
     justify-content: space-around;
-    color: var(--verde-oliva);
+    color: var(--quase-branco);
+    padding: 20px;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 40%;
+
 }
 
 .menu a:hover {
@@ -35,7 +42,7 @@ header {
 .menu a {
 
     text-decoration: none;
-    color: var(--verde-oliva);
+    color: var(--quase-branco);
     font-weight: bold;
 
 
@@ -71,4 +78,14 @@ header {
 .conteudo-texto {
     font-family: var(--texto);
     font-size: 14px;
+}
+
+footer{
+background-color: var(--verde-oliva);
+color: var(--quase-branco);
+font-family: var(--titulo);
+font-size: 10px;
+padding: 10px;
+text-align: center;
+
 }
