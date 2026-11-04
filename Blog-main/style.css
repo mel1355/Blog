@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Rye&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --verde-oliva: #687351ff;
+    --verde-claro: #9ba17fff;
+    --quase-branco: #e8e4dbff;
+    --tipo-bege: #c9c1aeff;
+    --titulo: "Rye", serif;
+    --texto: "Cormorant Garamond", serif;
+}
+
+body {
+    background: var(--quase-branco);
+    font-family: var(--texto);
+}
+
+header {
+    background-color: var(--verde-oliva);
+    display: flex;
+    justify-content: space-around;
+    color: var(--quase-branco);
+    padding: 20px;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 40%;
+
+}
+
+.menu a:hover {
+    color: var(--verde-claro);
+    transition: 1s;
+
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: var(--quase-branco);
+    font-weight: bold;
+
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--tipo-bege);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.titulo-noticias {
+    font-family: var(--titulo);
+    font-size: 24px;
+    color: var(--verde-oliva);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.noticias{
+    margin: 20px 150px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.card{
+    border: 2px solid var(--verde-oliva);
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: var(--verde-claro);
+    color: var(--quase-branco);
+    border-color: var(--quase-branco);
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+    box-shadow: 0px 4px 8px var(--verde-oliva);
+}
+
+footer{
+background-color: var(--verde-oliva);
+color: var(--quase-branco);
+font-family: var(--titulo);
+font-size: 10px;
+padding: 10px;
+text-align: center;
+
+}
+
+/*noticias*/
+
+.img-sla {
+    width: 100%;
+    height: 10%;
+}
+
+.conteudo {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.conteudo-titulo {
+    font-family: var(--titulo);
+    font-size: 24px;
+    color: var(--verde-oliva);
+}
+
+.conteudo-texto {
+    font-family: var(--texto);
+    font-size: 14px;
+}
