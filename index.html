@@ -10,58 +10,143 @@
 
 <body>
     <header>
-        <div>
+        <div class="logo-container">
             <img class="logo" src="img/logo.jpg" alt="Um violino em cima de partituras">
         </div>
-        <div>
+        <nav>
             <ul class="menu">
-                <a href="#"></li> Home </li></a>
-                <a href="#"></li> Loja </li></a>
-                <a href="#"></li> Contatos </li></a>
+                <li><a href="#" class="aba-link ativa" data-aba="aba-compositores">Compositores</a></li>
+                <li><a href="#" class="aba-link" data-aba="aba-musica">Sobre a Música</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <main>
-        <h2>O que é a Música?</h2>
-        <div class="noticias">
-            <div class="card">
-                <img src="" alt="">
-                <h3>Variação de classes instrumentais</h3>
-                <p>A variação de classes instrumentais é a base da coloração tímbrica na música. Cada família de instrumentos produz som através de um mecanismo físico diferente, o que garante a diversidade de texturas e sensações em uma composição.</p>
-                <div class="botoes">
-                    <button>👍</button>
-                    <button>👎</button>
+        <!-- PRIMEIRA ABA: ALGUNS COMPOSITORES -->
+        <section id="aba-compositores" class="aba-conteudo ativa">
+            <h1 class="titulo-noticias">Alguns Compositores</h1>
+            <p class="conteudo-texto">Conheça três grandes nomes que marcaram a história da música erudita e transformaram emoções humanas em obras eternas.</p>
+            
+            <div class="noticias">
+                <div class="card">
+                    <h3>Ludwig van Beethoven</h3>
+                    <p>Transformou sua própria surdez e seus sofrimentos pessoais em obras de pura força
+                        e heroísmo. Suas sinfonias e sonatas passam rapidamente da raiva e da tensão para uma alegria profunda e
+                        triunfante.</p>
+                    <div class="botoes">
+                        <button class="botao-like" aria-label="Curtir">👍 <span>0</span></button>
+                        <button class="botao-deslike" aria-label="Não curtir">👎 <span>0</span></button>
+                    </div>
                 </div>
-                <a href="Saiba mais ..."></a>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <h3>Variação de classes instrumentais</h3>
-                <p>A variação de classes instrumentais é a base da coloração tímbrica na música. Cada família de instrumentos produz som através de um mecanismo físico diferente, o que garante a diversidade de texturas e sensações em uma composição.</p>
-                <div class="botoes">
-                    <button>👍</button>
-                    <button>👎</button>
+
+                <div class="card">
+                    <h3>Frédéric Chopin</h3>
+                    <p>É o mestre da melancolia e da delicadeza ao piano. Suas peças transmitem
+                        uma sensação íntima de saudade, solidão e um romantismo frágil que toca o ouvinte por dentro.</p>
+                    <div class="botoes">
+                        <button class="botao-like" aria-label="Curtir">👍 <span>0</span></button>
+                        <button class="botao-deslike" aria-label="Não curtir">👎 <span>0</span></button>
+                    </div>
                 </div>
-                <a href="Saiba mais ..."></a>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <h3>Variação de classes instrumentais</h3>
-                <p>A variação de classes instrumentais é a base da coloração tímbrica na música. Cada família de instrumentos produz som através de um mecanismo físico diferente, o que garante a diversidade de texturas e sensações em uma composição.</p>
-                <div class="botoes">
-                    <button>👍</button>
-                    <button>👎</button>
+
+                <div class="card">
+                    <h3>Pyotr Ilyich Tchaikovsky</h3>
+                    <p>Conseguiu colocar desespero, paixão e tragédia pura em suas melodias. Sua música
+                        faz a pessoa sentir a intensidade máxima do amor e da dor, especialmente em seus balés e sinfonias
+                        finais.</p>
+                    <div class="botoes">
+                        <button class="botao-like" aria-label="Curtir">👍 <span>0</span></button>
+                        <button class="botao-deslike" aria-label="Não curtir">👎 <span>0</span></button>
+                    </div>
                 </div>
-                <a href="Saiba mais ..."></a>
             </div>
-        </div>
+        </section>
+
+        <!-- SEGUNDA ABA: O QUE É A MÚSICA E FAMÍLIAS INSTRUMENTAIS -->
+        <section id="aba-musica" class="aba-conteudo">
+            <h1 class="titulo-noticias">O que é a Música?</h1>
+            <p class="conteudo-texto">Muitas pessoas falariam que a música é a arte de produzir sons bonitos, mas na
+                verdade, não. A música é a arte de expressar seus sentimentos através do som. Sei que pode não parecer
+                muito lógico, mas essa arte impactou profundamente o desenvolvimento da sociedade.</p>
+
+            <div class="banner-container">
+                <img class="img-banner" src="img/sla.jpg" alt="Parede com vários violões acústicos, em preto e branco.">
+            </div>
+
+            <div class="bloco-destaque">
+                <h2 class="subtitulo-noticias">Variação Musical</h2>
+                <p class="conteudo-texto">A variação de classes instrumentais é a base da coloração tímbrica na música. Cada família de
+                    instrumentos produz som através de um mecanismo físico diferente, o que garante a diversidade de
+                    texturas e sensações em uma composição.</p>
+            </div>
+
+            <div class="noticias">
+                <div class="card">
+                    <h3>Percussão</h3>
+                    <p>São instrumentos cujo som é obtido através do impacto, raspagem ou agitação, ditando o ritmo e a energia da música.</p>
+                    <p class="exemplos"><strong>Exemplos:</strong> Bateria, pandeiro, xilofone, tímpanos e triângulo.</p>
+                    <div class="botoes">
+                        <button class="botao-like" aria-label="Curtir">👍 <span>0</span></button>
+                        <button class="botao-deslike" aria-label="Não curtir">👎 <span>0</span></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Cordas</h3>
+                    <p>Produzem som a partir da vibração de cordas tensionadas, que podem ser friccionadas com arco, dedilhadas ou percutidas.</p>
+                    <p class="exemplos"><strong>Exemplos:</strong> Violino, violão, violoncelo, harpa e piano.</p>
+                    <div class="botoes">
+                        <button class="botao-like" aria-label="Curtir">👍 <span>0</span></button>
+                        <button class="botao-deslike" aria-label="Não curtir">👎 <span>0</span></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Sopro</h3>
+                    <p>Geram som pela vibração de uma coluna de ar dentro de um tubo, dividindo-se tradicionalmente entre madeiras e metais.</p>
+                    <p class="exemplos"><strong>Exemplos:</strong> Flauta transversal, saxofone, trompete, clarinete e trombone.</p>
+                    <div class="botoes">
+                        <button class="botao-like" aria-label="Curtir">👍 <span>0</span></button>
+                        <button class="botao-deslike" aria-label="Não curtir">👎 <span>0</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p> Feito por: Melany M. da Silva ©</p>
+        <p>Feito por: Melany M. da Silva ©</p>
     </footer>
 
+    <script>
+        // 1. Controle de troca de abas no menu
+        const linksAbas = document.querySelectorAll('.aba-link');
+        const conteudosAbas = document.querySelectorAll('.aba-conteudo');
+
+        linksAbas.forEach(link => {
+            link.addEventListener('click', (evento) => {
+                evento.preventDefault();
+
+                linksAbas.forEach(item => item.classList.remove('ativa'));
+                conteudosAbas.forEach(secao => secao.classList.remove('ativa'));
+
+                link.classList.add('ativa');
+                const idAlvo = link.getAttribute('data-aba');
+                document.getElementById(idAlvo).classList.add('ativa');
+            });
+        });
+
+        // 2. Controle dos botões de Like e Deslike
+        const todosBotoes = document.querySelectorAll('.botao-like, .botao-deslike');
+
+        todosBotoes.forEach(botao => {
+            botao.addEventListener('click', () => {
+                const contador = botao.querySelector('span');
+                let valorAtual = Number(contador.textContent);
+                contador.textContent = valorAtual + 1;
+            });
+        });
+    </script>
 </body>
 
 </html>
